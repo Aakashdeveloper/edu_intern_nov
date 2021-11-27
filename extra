@@ -30,3 +30,37 @@ description
 skills/hobbies
 map
 footer
+
+/////////////////
+inline CSS >> css written inside html tag
+StyleTag >>> css added in the header of page
+StyleSheet >> separate Css File
+
+inline > StyleTag > StyleSheet
+
+h1
+
+inline{
+    color:red,
+    font-size:30px;
+    
+}
+
+StyleTag{
+    color:teal,
+    font-size:40px;
+    text-align:center
+}
+
+stylesheet{
+    text-align:right;
+    font-weight:bold
+}
+
+h1
+{
+    color:red,
+    font-size:30px,
+    text-align:center,
+    font-weight:bold
+}
