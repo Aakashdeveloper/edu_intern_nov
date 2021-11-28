@@ -1,0 +1,26 @@
+body{
+    margin:auto
+}
+#header{
+    height: 60px;
+    border:2px solid red
+}
+#search{
+    height: 400px;
+    background-image:url('image/food-wallpaper.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size: 100% 400px;
+}
+#QuickSearch{
+    height: 500px;
+    border:2px solid rgb(128, 0, 79)
+}
+
+#logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius: 50%;
+    margin: auto;
+}

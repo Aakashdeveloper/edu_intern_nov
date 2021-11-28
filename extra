@@ -42,8 +42,7 @@ h1
 
 inline{
     color:red,
-    font-size:30px;
-    
+    font-size:30px; 
 }
 
 StyleTag{
@@ -64,3 +63,21 @@ h1
     text-align:center,
     font-weight:bold
 }
+
+
+display:inline-block should be should with same content
+float left work with different amount of content also
+
+
+styletags
+> TagName > h1,a (if we target by tagname all that tag will get same property)
+> Id (#)> to target something unique
+> class (.)> to target multiple element
+
+if we use 2 class than order of the class matter in css
+the last which is on the bottom those property will be applied
+
+if we have class and id then
+all id property will be applied
+
+https://git-scm.com/downloads
