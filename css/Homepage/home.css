@@ -1,10 +1,35 @@
 body{
     margin:auto
 }
+/* Header Css */
 #header{
     height: 60px;
-    border:2px solid red
+    background-color: #e09c83;
 }
+
+#icon{
+    margin-left: 1%;
+    margin-top:-1%;
+    position: absolute;
+    color:#fff;
+}
+
+#social{
+    float: right;
+    margin-right: 1%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+
+/* Search Css */
 #search{
     height: 400px;
     background-image:url('image/food-wallpaper.png');
@@ -12,15 +37,111 @@ body{
     background-size: cover;
     background-size: 100% 400px;
 }
-#QuickSearch{
-    height: 500px;
-    border:2px solid rgb(128, 0, 79)
-}
 
 #logo{
     height:150px;
     width:150px;
     background-color: white;
     border-radius: 50%;
-    margin: auto;
+    margin-left: 45%;
+    margin-top: 1%;
+    position: absolute;
+    font-size:80px;
+    color:#df7839
+}
+
+#logo > span {
+    margin-left: 31%;
+    margin-top: 15%;
+    position: absolute;
+}
+
+#heading{
+    margin-left: 29%;
+    margin-top: 13%;
+    position: absolute;
+    font-size:45px;
+    color:white
+}
+
+.dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 27%;
+    margin-top: 19%;
+    position: absolute;
+}
+
+select{
+    height:60px;
+    width:35%
+}
+
+.restaurantSelect{
+    width:50%
+}
+
+/* Quick Search */
+#QuickSearch{
+    width:80%;
+    margin-left:10%;
+    margin-top:3%;
+    display: inline-block
+}
+
+#QuickHeading{
+    display:block;
+    color:#ac2e31;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+
+#QuickSubHeading{
+    line-height: 2;
+    color:gray;
+    font-size:20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 2%;
+}
+
+.tileContainer{
+    height:180px;
+    width:30%;
+    float: left;
+    margin-top: 2%;
+    margin-left: 2%;
+    box-shadow: 10px 20px 15px gray;
+}
+
+.tileComponent1{
+    width:50%;
+    float: left;
+    height:180px;
+}
+
+.tileComponent1 >img{
+    width:100%;
+    height:180px;
+}
+
+.tileComponent2{
+    width:40%;
+    float: left;
+    height:100px;
+    margin-left: 5%;
+    margin-top: 12%;
+}
+
+.componentHeading{
+    color:#ac2e31;
+    font-size: 25px;
+}
+
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
 }
