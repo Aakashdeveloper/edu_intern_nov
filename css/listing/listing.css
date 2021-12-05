@@ -1,0 +1,60 @@
+body{
+    margin: auto;
+    background-color: #ecd4c9;
+}
+#header{
+    height: 60px;
+    background-color: #e09c83;
+}
+
+#icon{
+    margin-left: 1%;
+    margin-top:-1%;
+    position: absolute;
+    color:#fff;
+}
+
+#icon > h1 >a {
+    color:#fff !important;
+}
+
+#social{
+    float: right;
+    margin-right: 1%;
+}
+
+a{
+    text-decoration: none;
+}
+
+.slogo{
+    height:50px;
+    width:50px;
+}
+
+.headingText{
+    text-align:center;
+    font-size:30px;
+    font-weight: bold;
+}
+
+#listingContainer{
+    width:80%;
+    height:800px;
+    margin-left:10%
+}
+
+.filter{
+    width:20%;
+    height:600px;
+    border:2px solid green;
+    float: left;
+}
+
+.content{
+    width:74%;
+    height:750px;
+    border:2px solid green;
+    float: left;
+    margin-left:5%
+}

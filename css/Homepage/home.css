@@ -11,7 +11,7 @@ body{
     margin-left: 1%;
     margin-top:-1%;
     position: absolute;
-    color:#fff;
+    color:#fff !important;
 }
 
 #social{
@@ -139,6 +139,10 @@ select{
 .componentHeading{
     color:#ac2e31;
     font-size: 25px;
+}
+
+.componentHeading > a{
+    color:#ac2e31 !important;
 }
 
 .componentSubHeading{
