@@ -49,7 +49,7 @@ a{
     height:400px;
 }
 .contentContainer{
-    width:50%;
+    width:52%;
     height:600px;
     margin-left: 2%;
     float: left;
@@ -68,5 +68,33 @@ a{
 .imgIcon{
     height:100px;
     width:100px;
+    margin-left:2%
+}
+
+.feature_container{
+    display: inline-block;
+    width:100%
+}
+
+.feature{
+    float: left;
+    margin-left:5%
+}
+
+h2{
+    font-size:35px;
+    color:green
+}
+
+.btn{
+    height:50px;
+    width:200px;
+    font-size:20px;
+    color:white;
+    background-color:rgb(115, 228, 81)
+}
+
+.btn-proceed{
+    background-color:rgb(133, 128, 136);
     margin-left:2%
 }

@@ -149,3 +149,85 @@ select{
     color:gray;
     font-size: 15px;
 }
+
+@media screen and (max-width:1600px){
+    body{
+        background-color: skyblue;
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(181, 183, 184);
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(243, 225, 242);
+    }
+    #heading{
+        margin-left: 25%;
+        margin-top: 18%;
+    }
+    .dropdown{
+        margin-left: 27%;
+        margin-top: 25%;
+    }
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(237, 245, 218);
+    }
+    .tileContainer{
+        width:43%;
+    }
+    #logo{
+        margin-left: 40%;
+    }
+    #heading{
+        margin-left: 18%;
+        margin-top: 24%;
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 34%;
+    }
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(245, 221, 202);
+    }
+    .tileContainer{
+        width:90%;
+    }
+    #logo{
+        margin-left: 34%;
+    }
+    #heading{
+        margin-left: 5%;
+        margin-top: 27%;
+        font-size:35px
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 38%;
+    }
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(183, 233, 195);
+    }
+    #heading{
+        margin-left: 0%;
+        margin-top: 31%;
+        font-size:34px
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 45%;
+    }
+}
