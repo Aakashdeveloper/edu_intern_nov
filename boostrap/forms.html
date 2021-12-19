@@ -1,0 +1,111 @@
+<html>
+    <head>
+        <title>BootStrap</title>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="second.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <br/>
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    Employee Form
+                </div>
+                <div class="panel-body">
+                    <form>
+                        <div class="form-group">
+                            <label form="form-control" for="fname">FirstName</label>
+                            <input class="form-control" id="fname" required name="fname"/>
+                        </div>
+                        <div class="form-group">
+                            <label form="form-control" for="lname">LastName</label>
+                            <input class="form-control" id="lname" name="lname"/>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label form="form-control" for="email">Email</label>
+                                    <input class="form-control" id="email" type="email"
+                                     name="email"/>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <label form="form-control" for="password">Password</label>
+                                    <input class="form-control" id="password" type="password"
+                                    maxlength="8" name="pwd"/>
+                                </div>
+                            </div>
+                        </div>
+                        <!--Radio-->
+                        <label>Gender</label>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" value="female" name="gender"/>Female
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label>
+                                <input type="radio" value="male" name="gender"/>Male
+                            </label>
+                        </div> 
+                        <!--Checkbox-->
+                        <label>Language</label>
+                        <div class="checkbox">
+                            <label>
+                                <input type="checkbox" value="JavaScript" name="lang"/>JavaScript
+                            </label>
+                            <label>
+                                <input type="checkbox" value="React" name="lang"/>React
+                            </label>
+                            <label>
+                                <input type="checkbox" value="Node" name="lang"/>Node
+                            </label>
+                        </div>
+                        <div class="form-group">
+                            <label>City</label>
+                            <select class="form-control" name="city">
+                                <option>Delhi</option>
+                                <option>Amsterdam</option>
+                                <option>London</option>
+                            </select>
+                        </div>  
+                        <div class="form-group">
+                            <label for="comment">Comment</label>
+                            <textarea class="form-control" name="comment" id="comment"
+                            rows="6">
+                            </textarea>
+                        </div>
+                        <button class="btn btn-success" type="submit">Submit</button>
+                    </form>
+
+                    <form class="form-horizontal">
+                        <div class="form-group has-success has-feedback">
+                            <label class="col-md-2 control-label">Email</label>
+                            <div class="col-md-10">
+                                <input class="form-control" type="text" placeholder="Email"/>
+                                <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+                            </div>  
+                        </div> 
+                        <div class="form-group has-warning has-feedback">
+                            <label class="col-md-2 control-label">Email</label>
+                            <div class="col-md-10">
+                                <input class="form-control" type="text"/>
+                                <span class="glyphicon glyphicon-warning-sign form-control-feedback"></span>
+                            </div>  
+                        </div>
+                        <div class="form-group has-error has-feedback">
+                            <label class="col-md-2 control-label">Email</label>
+                            <div class="col-md-10">
+                                <input class="form-control" type="text"/>
+                                <span class="glyphicon glyphicon-remove form-control-feedback"></span>
+                            </div>  
+                        </div>  
+                    </form>
+                </div>
+            </div>  
+        </div>
+    </body>
+</html>

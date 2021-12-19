@@ -1,0 +1,38 @@
+#first{
+    height:200px;
+    background-color:skyblue;
+}
+#second{
+    height:200px;
+    background-color:rgb(217, 240, 136);
+}
+#third{
+    height:200px;
+    background-color:rgb(238, 179, 155);
+}
+#fourth{
+    height:200px;
+    background-color:rgb(240, 159, 236);
+}
+#fifth{
+    height:200px;
+    background-color:rgb(94, 134, 221);
+}
+#sixth{
+    height:200px;
+    background-color:rgb(209, 198, 102);
+}
+#seventh{
+    height:200px;
+    background-color:rgb(30, 55, 65);
+}
+
+.glyphicon-trash{
+    font-size:25px;
+    color:red
+}
+
+.glyphicon-edit{
+    font-size:25px;
+    color:blue
+}
