@@ -35,3 +35,16 @@ isEven(10)
 'Number 10 is even'
 isEven(11)
 'Number 11 is odd'
+
+//es5
+function add(a,b){
+    return a+b
+}
+add(1,2)
+3
+//es6 (arrow functions)
+let add = (a,b) => {
+     return a+b 
+}
+add(1,2)
+3

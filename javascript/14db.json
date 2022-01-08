@@ -1,0 +1,35 @@
+// json > javascript object notation
+// its key value pair of data
+
+let user = 
+[
+    {
+        "id":1,
+        "name":"John",
+        "city":"Delhi",
+        "role":"Admin"
+    },
+    {
+        "id":2,
+        "name":"Nikita",
+        "city":"Paris",
+        "role":"User"
+    },
+    {
+        "id":3,
+        "name":"Amit",
+        "role":"Admin"
+    }
+]
+
+for(i=0;i<user.length;i++){
+    if(user[i].role == 'Admin'){
+        console.log(`<li>${user[i].name}</li>`)
+    }
+}
+
+for(i=0;i<user.length;i++){
+    if(user[i].city != undefined){
+        console.log(`<li>${user[i].city}</li>`)
+    }
+}
