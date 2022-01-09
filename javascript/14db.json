@@ -33,3 +33,8 @@ for(i=0;i<user.length;i++){
         console.log(`<li>${user[i].city}</li>`)
     }
 }
+
+user[0].name
+'John'
+user[1].name
+'Nikita'

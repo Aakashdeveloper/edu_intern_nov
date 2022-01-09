@@ -17,6 +17,7 @@ https://github.com/Aakashdeveloper
 https://git-scm.com/downloads
 
 
+
 head > use for providing link fo css javascript
 body > all the things that is visual to the user 
 
@@ -124,9 +125,22 @@ POST
 action> will be the url with help of which you will submit the records
 
 
-object
 geolocation
-api calling
 stockapp
+weather app
 
-> weather app
+https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
+https://nodejs.org/en/
+
+/////dummyapi////
+> open cmd
+> go inside folder using cmd (cd Desktop/api/Nov/edu_intern_nov)
+> npx json-server --watch bookmyshow.json --port 8700
+
+https://www.linkedin.com/posts/aakansha-chouhan-091631215_intership-edureka-fullstackdevelopment-activity-6851196101681258496-_abB/
+https://www.linkedin.com/feed/update/urn:li:activity:6850259520334118912/
+
+
+
+http://localhost:8700/category
+http://localhost:8700/data?category_id=2

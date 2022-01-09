@@ -1,6 +1,7 @@
 <html>
     <head>
         <link href="home.css" rel="stylesheet" type="text/css"/>
+        <script src="home.js"></script>
     </head>
     <body>
         <header id="header">
@@ -29,13 +30,10 @@
                Find The Best Restaurants Near You
            </div>
            <div class="dropdown">
-                <select>
+                <select id="city" onChange="getHotel()">
                     <option>----SELECT CITY----</option>
-                    <option>Delhi</option>
-                    <option>Mumbai</option>
-                    <option>Pune</option>
                 </select>
-                <select class="restaurantSelect">
+                <select class="restaurantSelect" id="hotels">
                     <option>----SELECT RESTAURANTS----</option>
                 </select>
            </div>
@@ -136,5 +134,8 @@
                 <h3>&copy; Developer Funnel</h3>
             </center>
         </footer>
+        <script>
+            window.onload=getCity()
+        </script>
     </body>
 </html>
