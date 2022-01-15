@@ -1,0 +1,37 @@
+.card{
+    width: 200px;
+    border-radius: 5%;
+    background: #28346c;
+    color: #fff;
+    margin-left:3%;
+  }
+  .card:hover { transform: scale(1.1); }
+  .card-img-top{
+    width:44%
+  }
+  
+  .headingh1{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px #28346c;
+  }
+  
+  .max{
+    color: rgb(166, 226, 236);
+    font-weight: bold;
+  }
+  .min{
+    color:rgb(104, 155, 241);
+    font-weight: bold;
+  }
+  .day{
+    color: rgb(234, 255, 124);
+  }
+  .humid{
+    color:rgb(44, 112, 105);
+  }
+  .topTemp{
+    font-size:26px;
+    color:white;
+    font-weight: bold;
+  }

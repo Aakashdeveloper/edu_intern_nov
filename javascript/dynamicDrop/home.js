@@ -26,11 +26,19 @@ const getHotel = () => {
     fetch(`${hotelUrl}${cityId}`)
     .then((res) => res.json())
     .then((data) => {
+        data.map((item) => {
+            let element = document.createElement('option')
+            let text = document.createTextNode(`${item.name} | ${item.city_name}`)
+            element.appendChild(text)
+            document.getElementById('hotels').appendChild(element)
+            return 'ok'
+        })
+        /*
         for(i=0;i<data.length;i++){
             let element = document.createElement('option')
             let text = document.createTextNode(`${data[i].name} | ${data[i].city_name}`)
             element.appendChild(text)
             document.getElementById('hotels').appendChild(element)
-        }
+        }*/
     })
 }

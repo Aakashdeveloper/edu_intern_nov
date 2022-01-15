@@ -125,9 +125,16 @@ POST
 action> will be the url with help of which you will submit the records
 
 
-geolocation
+weather app 
+map/filter
+
 stockapp
-weather app
+function object
+classes
+prototype
+clousour
+hoisting
+
 
 https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh
 https://nodejs.org/en/
@@ -144,3 +151,5 @@ https://www.linkedin.com/feed/update/urn:li:activity:6850259520334118912/
 
 http://localhost:8700/category
 http://localhost:8700/data?category_id=2
+
+https://github.com/Aakashdeveloper/public-apis
