@@ -1,0 +1,82 @@
+{
+    "stocks":[
+        {
+            "id":1,
+            "name":"SBI",
+            "logo":"https://i.ibb.co/VYz7T0X/sbi.png",
+            "payload": {}
+        },
+        {
+            "id":2,
+            "name":"PSB",
+            "logo":"https://i.ibb.co/VqHnGWZ/psb.jpg",
+            "payload": {}
+        },
+        {
+            "id":3,
+            "name":"MRF",
+            "logo":"https://i.ibb.co/98xtJT8/mrf.png",
+            "payload": {}
+        },
+        {
+            "id":4,
+            "name":"ITC",
+            "logo":"https://i.ibb.co/vzwbGmx/itc.jpg",
+            "payload": {}
+        },
+        {
+            "id":5,
+            "name":"ACC",
+            "logo":"https://i.ibb.co/qsVHhtq/acc.png",
+            "payload": {}
+        },
+        {
+            "id":6,
+            "name":"HCL",
+            "logo":"https://i.ibb.co/ph4mt3K/hcl.png",
+            "payload": {}
+        },
+        {
+            "id":7,
+            "name":"TCS",
+            "logo":"https://i.ibb.co/0X1MRYV/tcs.png",
+            "payload": {}
+        },
+        {
+            "id":8,
+            "name":"IC8",
+            "logo":"https://i.ibb.co/Cz2CQmf/vi.jpg",
+            "payload": {}
+        },
+        {
+            "id":9,
+            "name":"NAC",
+            "logo":"https://i.ibb.co/mHH2t5G/nalco.png",
+            "payload": {}
+        },
+        {
+            "id":10,
+            "name":"BTV",
+            "logo":"https://i.ibb.co/jMcwwGj/airtel.png",
+            "payload": {}
+        },
+        {
+            "id":11,
+            "name":"DLF",
+            "logo":"https://i.ibb.co/8Pr42S4/dlf.png",
+            "payload":{}
+        },
+        {
+            "id":12,
+            "name":"BPL",
+            "logo":"https://i.ibb.co/bBTq3qW/bpl.png",
+            "payload":{}
+        },
+        {
+            "id":13,
+            "name":"IOC",
+            "logo":"https://iocl.com/images/static/IndianOil_Logo_Fulla.jpg",
+            "payload":{}
+        }
+    ]
+}
