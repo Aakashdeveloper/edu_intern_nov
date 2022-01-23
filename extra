@@ -155,3 +155,38 @@ https://github.com/Aakashdeveloper/public-apis
 
 
 https://raw.githubusercontent.com/Aakashdeveloper/Aakashdeveloper/master/README.md
+///////
+
+nodejs
+npm
+nodeinbuilt
+api in nodejs
+restapi with db connection
+login/logout
+
+> https://dashboard.heroku.com/login > signup
+> https://account.mongodb.com/account/login (login with google)
+> https://www.mongodb.com/try/download/community?_ga=2.153137456.947270070.1642936106-1264525520.1602246073
+
+nodejs > async single-threaded non-blocking i/o
+
+nodejs => machine code
+
+npm > node package manager
+package.json
+> Entry point in the app
+> first file of the application
+> contains start stop build command
+> name of all the packages
+> meta data(name , description, version)
+
+//step to generate package.json
+* nodejs must be installed
+> go inside the folder using cmd/terminal
+> npm init
+> answer all questions
+> type "yes"
+
+//step to install package
+> go inside the folder using cmd/terminal
+> npm i packagename
