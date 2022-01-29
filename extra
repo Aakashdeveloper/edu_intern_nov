@@ -190,3 +190,49 @@ package.json
 //step to install package
 > go inside the folder using cmd/terminal
 > npm i packagename
+
+/////////nodemon//////
+# window
+> open cmd as admin
+> npm i -g nodemon
+
+#mac/linux
+> open terminal
+> sudo npm i -g nodemon
+
+
+get > Read
+post > Create
+put > Update
+delete > Delete
+
+CRUD
+Create Read Update Delete
+
+
+///
+setup local mongodb
+"port":27017
+> Install mongodb
+
+#window
+> create folder name "data" in c drive
+> inside "data" folder create folder "db"
+> open first cmd 
+    > c/program file/mongodb/4.5/server/bin
+    > mongod 
+    (this  will start the mongodb server)
+> open second cmd
+    > c/program file/mongodb/4.5/server/bin
+    > mongo
+    (this will start the mongo client)
+
+#mac/linux
+> open terminal
+> mkdir data/db
+
+> open first terminal
+> mongodb --dbpath data/db
+
+> open second terminal
+> mongo
