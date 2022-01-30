@@ -1,0 +1,27 @@
+////To see all database
+> show dbs
+
+///to go inside dbs
+> use databasename
+
+///To see all collection
+> show collections
+
+/// to find all data
+> db.collectionname.find()
+db.location.find()
+db.location.find().pretty()
+
+///to create new database
+> use database
+
+// to insert record
+db.user.insert({_id:1,name:'John'})
+db.user.insert({_id:2,name:'Amit'})
+db.user.insert({name:'Nikita'})
+db.user.insert({_id:5,name:'Bhumika'})
+db.user.insert({name:'Akriti'})
+
+{ "_id" : 1, "name" : "John" }
+{ "_id" : 2, "name" : "Amit" }
+{ "_id" : ObjectId("61f66fa297db2c1b67677b34"), "name" : "Nikita" }

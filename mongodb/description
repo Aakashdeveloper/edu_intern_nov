@@ -1,0 +1,52 @@
+MongoDB
+> NoSql database
+
+Sql
+Sno | English | Hindi | Computer |
+ 1  |  80     |       |          |
+ 2  |         | 80    |          |
+ 3  |         | 80    |          |
+ 4  |  80     |       |  80      |
+ 5  |         |  90   |  80      |
+
+ NoSql
+ [
+     {
+         "sno":1,
+         "english":80
+     },
+     {
+         "sno":2,
+         "hindi":80
+     },
+     {
+         "sno":3,
+         "hindi":80
+     },
+     {
+         "sno":4,
+         "english":80,
+         "computer":80
+     },
+    {
+         "sno":5,
+         "hindi":90,
+         "computer":80
+     }
+ ]
+
+Sql        NoSql
+database   database
+table      collection
+row        document
+select     find
+insert     insert
+delete     Delete
+update     update
+
+/////////
+_id > default primary key
+12bytes
+4byte> timestamp
+5byte> random values
+3byte> counter
