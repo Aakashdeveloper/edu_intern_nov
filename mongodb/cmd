@@ -25,3 +25,22 @@ db.user.insert({name:'Akriti'})
 { "_id" : 1, "name" : "John" }
 { "_id" : 2, "name" : "Amit" }
 { "_id" : ObjectId("61f66fa297db2c1b67677b34"), "name" : "Nikita" }
+
+//// first wrt to condition 
+db.restaurant.find({city:"1"})
+db.restaurant.find({city:"1","cost" : 450})
+
+db.restaurent.find({city:"1","type.mealtype":"2"}).pretty()
+
+
+db.restaurent.find({$and:[{cost:{$gt:600,$lt:1000}}]}).pretty()
+
+db.restaurent.find({$and:[{cost:{$gt:600,$lt:1000}}]}).sort({cost:1}).pretty()
+
+//projection
+
+db.restaurent.find({condition},{projection}).pretty()
+
+db.restaurent.find({},{name:1,cost:1,_id:0,address:1}).pretty()
+
+db.restaurent.find({city:"1"},{name:1,cost:1,_id:0,address:1}).pretty()

@@ -15,6 +15,7 @@ https://code.visualstudio.com/download
 https://github.com/
 https://github.com/Aakashdeveloper
 https://git-scm.com/downloads
+https://www.postman.com/
 
 
 
@@ -236,3 +237,14 @@ setup local mongodb
 
 > open second terminal
 > mongo
+
+///////
+params
+> pass after /
+> we need to define in routes
+> complusory if you declare 
+
+queryParams
+> pass after ?
+> no need to define in the route
+> it is optional
