@@ -6,8 +6,14 @@ const MongoClient = mongo.MongoClient;
 const mongoUrl = "mongodb+srv://local:test12345@cluster0.f8vmc.mongodb.net/augintern?retryWrites=true&w=majority"
 const dotenv = require('dotenv')
 dotenv.config()
+const bodyParser = require('body-parser')
+const cors = require('cors')
 let port = process.env.PORT || 8210;
 var db;
+
+app.use(bodyParser.urlencoded({extended:true}))
+app.use(bodyParser.json())
+app.use(cors())
 
 //get 
 app.get('/',(req,res) => {
@@ -116,6 +122,61 @@ app.get('/menu/:id',(req,res) => {
 })
 
 // menu on basis of user selection>> Todo
+
+// get orders
+app.get('/orders',(req,res) => {
+    let email  = req.query.email
+    let query = {};
+    if(email){
+        query = {"email":email}
+    }
+    db.collection('orders').find(query).toArray((err,result) =>{
+        if(err) throw err;
+        res.send(result)
+    })
+})
+
+//place order (post)
+app.post('/placeOrder',(req,res) => {
+    //console.log(req.body)
+    db.collection('orders').insert(req.body,(err,result) =>{
+        if(err) throw err;
+        res.send('Order Added')
+    })
+})
+
+app.post('/menuItem',(req,res) => {
+    console.log(req.body)
+    db.collection('menu').find({menu_id:{$in:req.body}}).toArray((err,result) =>{
+        if(err) throw err;
+        res.send(result)
+    })
+})
+
+app.delete('/deleteOrder',(req,res) => {
+    db.collection('orders').remove({},(err,result) =>{
+        if(err) throw err;
+        res.send(result)
+    })
+})
+
+app.put('/updateOrder/:id',(req,res) => {
+    let oId = mongo.ObjectId(req.params.id)
+    let status = req.query.status?req.query.status:'Pending'
+    db.collection('orders').updateOne(
+        {_id:oId},
+        {$set:{
+            "status":status,
+            "bank_name":req.body.bank_name,
+            "bank_status":req.body.bank_status
+        }},(err,result)=>{
+            if(err) throw err;
+            res.send(`Status Updated to ${status}`)
+        }
+    )
+})
+
+
 
 MongoClient.connect(mongoUrl, (err,client) => {
     if(err) console.log("Error While Connecting");

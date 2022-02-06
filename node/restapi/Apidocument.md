@@ -53,16 +53,21 @@ Page 3
 
 page 4
 > menu items on user selection
+  > localhost:6700/menuItem
+  > http://zomatoajulypi.herokuapp.com/menuItem
+  > body [1,4,5]
 
 > api to place order
+  > localhost:6700/placeOrder
 
 page 5
 > list all order
+  > http://localhost:6700/orders
+  > http://localhost:6700/orders?email="aakash@gmail.com"
 
+Delete order 
+> localhost:6700/deleteOrder
  
 
-/////
-(post) orderspage >        http://zomatoajulypi.herokuapp.com/menuItem
-                           body [1,4,5]
-(get) allorder>            
-(post)placeOrder >   
+ update order
+ > localhost:6700/updateOrder/61ffab62c39f96bf7ba39676?status=Success
