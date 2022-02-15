@@ -272,4 +272,6 @@ npm i bcryptjs body-parser cors express jsonwebtoken mongoose
 (GET) => https://developerjwt.herokuapp.com/api/auth/userinfo
 (Header) => {'x-access-token':'token value from login'}
 
-///////////
+///////////Generate new react app ///////
+> go inside the folder user cmd
+> npx create-react-app appname
