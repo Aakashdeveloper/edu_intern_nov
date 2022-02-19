@@ -275,3 +275,28 @@ npm i bcryptjs body-parser cors express jsonwebtoken mongoose
 ///////////Generate new react app ///////
 > go inside the folder user cmd
 > npx create-react-app appname
+
+React > is a frontend lib/framework that help
+to build single page application using component base structure
+
+react > Main Library
+React-dom > Help to render
+React-Script > Help to run the app
+
+
+function add(a,b){
+    var out =  [a,b]
+    return out
+}
+
+add(1,2)
+
+classComponent
+> logical component
+> use for writing logic/api call as well as display
+> can maintain state
+
+functional Component
+> dumb component
+> use for display purpose
+> we cannot maintain state

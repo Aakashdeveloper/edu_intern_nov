@@ -1,0 +1,17 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import Header from './Header';
+import Footer from './component/Footer';
+import Product from './ProductDisplay'
+
+const App = () => {
+    return(
+        <>
+            <Header/>
+            <Product/>
+            <Footer/>
+        </>
+    )
+}
+
+ReactDOM.render(<App/>,document.getElementById('root'))
