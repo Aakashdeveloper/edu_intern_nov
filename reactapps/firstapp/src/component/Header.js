@@ -3,14 +3,30 @@ import './Header.css';
 
 class Header extends Component{
 
+    constructor(){
+       super()
+
+       this.state={
+           title:'React Developer',
+           keywords:'User text Here'
+       }
+    }
+
+    handleChange = (event) => {
+        //console.log(event.target.value)
+        this.setState({keywords:event.target.value?event.target.value:'User text Here'})
+        this.props.userInput(event.target.value);
+    }
+
     render(){
+        console.log(">>>inside render>>>>>>")
         return(
             <Fragment>
                 <header>
-                    <div className="logo">Developer Funnel</div>
+                    <div className="logo">{this.state.title}</div>
                     <center>
-                        <input/>
-                        <div style={{color:'white',fontSize:'20px'}}>User Input Here</div>
+                        <input onChange={this.handleChange}/>
+                        <div style={{color:'white',fontSize:'20px'}}>{this.state.keywords}</div>
                     </center>
                 </header>
                 <hr/>

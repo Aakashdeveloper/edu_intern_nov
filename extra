@@ -300,3 +300,28 @@ functional Component
 > dumb component
 > use for display purpose
 > we cannot maintain state
+
+State
+> State act like a local variable
+> every data interaction will happen through state
+> value of state can be update(mutable)
+
+Props
+> Help to share the data between the components
+> value of props cannot be updated(immutable)
+> data can be transfer between the two nested component
+
+parent => children
+props
+
+children => parent
+props with function
+
+
+parent 
+function add(a,b){
+    return a+b
+}
+
+child
+add(1,2)
