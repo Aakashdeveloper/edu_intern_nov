@@ -325,3 +325,11 @@ function add(a,b){
 
 child
 add(1,2)
+
+/////////
+npm i react-router-dom@5.3.0
+
+//default props
+> history > for redirection
+> location > for query param
+> match > for params

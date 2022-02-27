@@ -1,5 +1,7 @@
 import React from 'react';
-import {Link} from 'react-router-dom'
+import {Outlet,Link} from 'react-router-dom'
+import Footer from './Footer';
+
 
 function Header(props){
     return(
@@ -16,13 +18,17 @@ function Header(props){
                     </div>
                     <div className="collapse navbar-collapse" id="myNavbar">
                         <ul className="nav navbar-nav">             
-                            <li><Link to="/">Home</Link></li>
+                            <li><Link to="/home">Home</Link></li>
                             <li><Link to="/post">Post</Link></li>
                             <li><Link to="/profile">Profile</Link></li>
                         </ul>
                     </div>
                 </div>
             </nav>
+            <div className="container">
+             <Outlet/>
+            </div>
+            <Footer/>
             <hr/>
         </>
     )
