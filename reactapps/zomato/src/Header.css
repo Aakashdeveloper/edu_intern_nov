@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+}
+.header{
+    height:70px;
+    width:100%;
+    background-color:#d08048;
+}
+
+#brand{
+    font-size:30px;
+    color:white;
+    float: left;
+    margin-left: 2%;
+    margin-top: 1%;
+}
+
+#social{
+    float: left;
+    margin-left: 68%;
+    margin-top: 10px;
+}
+.socialImg{
+    height:50px
+}
