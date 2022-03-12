@@ -333,3 +333,26 @@ npm i react-router-dom@5.3.0
 > history > for redirection
 > location > for query param
 > match > for params
+
+var a = [4,7,8,22,34,4]
+undefined
+a.splice(3,1)
+[22]
+a
+(5) [4, 7, 8, 34, 4]
+a.indexOf(8)
+2
+a.splice(a.indexOf(8),1)
+[8]
+a
+(4) [4, 7, 34, 4]
+a.splice(a.indexOf(4),1)
+[4]
+a.splice(a.indexOf(4),1)
+[4]
+a
+(2) [7, 34]
+a
+(2) [7, 34]
+a.splice(a.indexOf(4),1)
+[34]
