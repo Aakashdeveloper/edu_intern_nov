@@ -356,3 +356,5 @@ a
 (2) [7, 34]
 a.splice(a.indexOf(4),1)
 [34]
+
+npm run build

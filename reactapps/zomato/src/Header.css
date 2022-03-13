@@ -18,8 +18,13 @@ body{
 #social{
     float: left;
     margin-left: 68%;
-    margin-top: 10px;
+    margin-top: -31px;
 }
 .socialImg{
     height:50px
+}
+
+.homeBtn{
+    margin-top:1%;
+    margin-left:1%
 }

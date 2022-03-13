@@ -10,7 +10,7 @@ class Header extends Component{
                     Developer Food
                 </div>
                 <div>
-                    <Link to="/">Home</Link>
+                    <Link to="/" className="btn btn-info homeBtn">Home</Link>
                 </div>
                 <div id="social">
                     <Link className="btn btn-primary" to="/register"><span className="glyphicon glyphicon-user"></span> Sign Up</Link>
